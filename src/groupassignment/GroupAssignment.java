@@ -18,6 +18,7 @@ public class GroupAssignment {
         System.out.println("hello");
         System.out.println("plss");
         System.out.println("work");
+        System.out.println("RongCheng");
     }
     
 }
