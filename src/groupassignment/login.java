@@ -60,7 +60,7 @@ public class login extends javax.swing.JFrame {
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/groupassignment/pic/cardresize.PNG"))); // NOI18N
         jLabel1.setText("jLabel1");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(0, 0, 400, 600);
+        jLabel1.setBounds(0, 0, 280, 600);
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/groupassignment/pic/cards60px.png"))); // NOI18N
         jLabel2.setText("jLabel2");
@@ -176,7 +176,7 @@ public class login extends javax.swing.JFrame {
                 .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jButton1)
-                .addContainerGap(36, Short.MAX_VALUE))
+                .addContainerGap(33, Short.MAX_VALUE))
         );
 
         getContentPane().add(jPanel1);
@@ -237,7 +237,6 @@ public class login extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
-    private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     // End of variables declaration//GEN-END:variables
 }
