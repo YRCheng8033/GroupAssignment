@@ -84,11 +84,6 @@ public class CheckOut extends javax.swing.JFrame {
 
         jPanel3.setBackground(new java.awt.Color(50, 151, 95));
 
-        jList1.setModel(new javax.swing.AbstractListModel<String>() {
-            String[] strings = { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" };
-            public int getSize() { return strings.length; }
-            public String getElementAt(int i) { return strings[i]; }
-        });
         jList1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jList1.setSelectionForeground(new java.awt.Color(204, 204, 204));
         jScrollPane1.setViewportView(jList1);
@@ -96,19 +91,19 @@ public class CheckOut extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
         jLabel2.setText("Your ORDER");
 
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Users\\A15\\Pictures\\JAVA\\PinClipart.com_clipart-spa_4035278.png")); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/groupassignment/pic/PinClipart.com_clipart-spa_4035278.png"))); // NOI18N
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 278, Short.MAX_VALUE)
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addGap(7, 7, 7)
                 .addComponent(jLabel6)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel2)
-                .addContainerGap(141, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -144,28 +139,28 @@ public class CheckOut extends javax.swing.JFrame {
             }
         });
 
-        Visa.setIcon(new javax.swing.ImageIcon("C:\\Users\\A15\\Pictures\\JAVA\\visa-logo-pngrepo-com.png")); // NOI18N
+        Visa.setIcon(new javax.swing.ImageIcon(getClass().getResource("/groupassignment/pic/visa-logo-pngrepo-com.png"))); // NOI18N
         Visa.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 VisaActionPerformed(evt);
             }
         });
 
-        MasterCard.setIcon(new javax.swing.ImageIcon("C:\\Users\\A15\\Pictures\\JAVA\\toppng.com-mastercard-logo-5328x3312.png")); // NOI18N
+        MasterCard.setIcon(new javax.swing.ImageIcon(getClass().getResource("/groupassignment/pic/toppng.com-mastercard-logo-5328x3312.png"))); // NOI18N
         MasterCard.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 MasterCardActionPerformed(evt);
             }
         });
 
-        CashPay.setIcon(new javax.swing.ImageIcon("C:\\Users\\A15\\Pictures\\JAVA\\pngegg.png")); // NOI18N
+        CashPay.setIcon(new javax.swing.ImageIcon(getClass().getResource("/groupassignment/pic/pngegg.png"))); // NOI18N
         CashPay.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 CashPayActionPerformed(evt);
             }
         });
 
-        TouchNGo.setIcon(new javax.swing.ImageIcon("C:\\Users\\A15\\Pictures\\JAVA\\download.png")); // NOI18N
+        TouchNGo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/groupassignment/pic/download.png"))); // NOI18N
         TouchNGo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 TouchNGoActionPerformed(evt);
