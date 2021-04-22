@@ -7,11 +7,13 @@ package groupassignment;
 
 /**
  *
- * @author A15
+ * @author ywkok
  */
-public class Sellmain {
-    
+public class reg {
+    static login loginform1 = new login();
+    static admin_product adminform1 = new admin_product();
+    static admin_seller adminform2 = new admin_seller();
+    static admin_sales adminform3 = new admin_sales();
     static Seller seller = new Seller();
-    static CheckOut checkout = new CheckOut();
     
 }
